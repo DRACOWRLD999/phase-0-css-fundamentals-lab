@@ -3,3 +3,45 @@ body {
   height: 100%;
   margin: 0;
 }
+
+#details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: red;
+  text-align: center;
+}
+
+#featured-property {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+ a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
